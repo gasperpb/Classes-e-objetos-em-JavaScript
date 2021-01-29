@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - I Artur Luiz Torres de Oliveira • 20:22 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contener">
+
+        <h1>Postar o resumo do artigo DEVMEDIA presente no mural do Class e pesquisar e definir os seguintes conceitos: </h1>
+
+        <button id="btn_abd" onclick="abd()">Abstração de Dados</button>
+
+
+        <h2 id="abd" onclick="foo()"> Abstração de Dados </h2>
+
+        <h2 id="enc"> Encapsulamento</h2>
+        <button onclick="enc()">Encapsulamento</button>
+
+        <h2 id="her">Herança(Prototype)</h2>
+        <h2 id="pol">Polimorfismo</h2>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        function abd() {
+            document.getElementById("abd").innerText = "Abstração de dados A conjunção de herança complexa, métodos, propriedades de um objeto devem refletir adequadamente um modelo da realidade.";
+        }
+
+        function enc() {
+            document.getElementById("enc").innerText = "EncapsulamentoUma maneira de agrupar os dados e os métodos que usam os dados.É a técnica que faz com que detalhes internos do funcionamento dos métodos de uma classe permaneçam ocultos para os objetos. Por conta dessa técnica, o conhecimento arespeito da implementação interna da classe é desnecessário do ponto de vista do objeto, uma vez que isso passa a ser responsabilidade dos métodos internos da classe.Assim que uma classe é criada, seu código e seus dados, os quais são chamados de membros da classe, são determinados. Esses dados recebem o nome de variáveis membro ou variáveis de instância.";
+        }
+    </script>
+
+</body>
+
+</html>
