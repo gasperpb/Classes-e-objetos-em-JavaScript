@@ -51,12 +51,25 @@ c.saldo = 17; // tenta mudar o saldo
 c.mostraSaldo(); // continua 1000
 
 
-/*Em OOP, herança refere-se a habilidade de um objeto acessar métodos e outras propriedades de outro objeto. 
+/*Herança(Prototype)
+
+
+Em OOP, herança refere-se a habilidade de um objeto acessar métodos e outras propriedades de outro objeto. 
 Estes objetos então herdam essas informações de outros objetos e podem utilizá-las da forma que preferirem. 
 No Javascript não temos uma herança propriamente dita, mas ela funciona através do que são chamados de protótipos, 
 esta forma de herança é conhecida como herança prototípica (ou prototypal inheritance).
 
 Exemplo: */
+
+
+const meuObjeto = {
+    a: 1,
+    b: 2
+        //meuObjeto.__proto__-->> Object.prototype--> null
+}
+
+const meuArray = [1, 2, 3, 'a', 'b', 4]
+meuArray.map()
 
 console.log(Object); //ƒ Object() { [native code] }
 console.log(Array); //ƒ Array() { [native code] }
