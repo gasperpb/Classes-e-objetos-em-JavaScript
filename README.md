@@ -1,4 +1,4 @@
-# Trabalhando com classes e objetos em JavaScript
+# Fucoes-em-javascript
 Estudo de funções em javascript para IFPB Informatica
 ## Tarefas
 
